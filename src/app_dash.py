@@ -98,7 +98,7 @@ for var in nums:
 
 app = dash.Dash(__name__,
                 # external CSS stylesheets
-                external_stylesheets=[
+                external_stylesheets = [
                     #"https://raw.githack.com/Athena75/IBM-Customer-Value-Dashboarding/main/assets/style.css",
                     "https://rawcdn.githack.com/Athena75/IBM-Customer-Value-Dashboarding/df971ae38117d85c8512a72643ce6158cde7a4eb/assets/style.css"
                 ]
